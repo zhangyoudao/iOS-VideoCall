@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		024D2718249726DC007DD657 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024D2717249726DC007DD657 /* AppDelegate.swift */; };
+		024D271A249726DC007DD657 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024D2719249726DC007DD657 /* SceneDelegate.swift */; };
+		024D271C249726DC007DD657 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024D271B249726DC007DD657 /* ViewController.swift */; };
+		024D271F249726DC007DD657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 024D271D249726DC007DD657 /* Main.storyboard */; };
+		024D2721249726DC007DD657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 024D2720249726DC007DD657 /* Assets.xcassets */; };
+		024D2724249726DC007DD657 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 024D2722249726DC007DD657 /* LaunchScreen.storyboard */; };
+		024D272F249726DC007DD657 /* VideoCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024D272E249726DC007DD657 /* VideoCallTests.swift */; };
+		024D273A249726DD007DD657 /* VideoCallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024D2739249726DD007DD657 /* VideoCallUITests.swift */; };
+		0BAC61DBF7BFA32918E620D8 /* Pods_VideoCallTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D21086951786C2B1A9B54D /* Pods_VideoCallTests.framework */; };
+		7F0E2053A0C4498A690670CD /* Pods_VideoCall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11933F3BC00ECDD55772529 /* Pods_VideoCall.framework */; };
+		AC418AABE919C899286DB368 /* Pods_VideoCall_VideoCallUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAA01308AB762F374F03881 /* Pods_VideoCall_VideoCallUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		024D272B249726DC007DD657 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 024D270C249726DC007DD657 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 024D2713249726DC007DD657;
+			remoteInfo = VideoCall;
+		};
+		024D2736249726DD007DD657 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 024D270C249726DC007DD657 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 024D2713249726DC007DD657;
+			remoteInfo = VideoCall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		024D248E9800EDC1C43C3C41 /* Pods-VideoCall-VideoCallUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoCall-VideoCallUITests.debug.xcconfig"; path = "Target Support Files/Pods-VideoCall-VideoCallUITests/Pods-VideoCall-VideoCallUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		024D2714249726DC007DD657 /* VideoCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		024D2717249726DC007DD657 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		024D2719249726DC007DD657 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		024D271B249726DC007DD657 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		024D271E249726DC007DD657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		024D2720249726DC007DD657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		024D2723249726DC007DD657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		024D2725249726DC007DD657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		024D272A249726DC007DD657 /* VideoCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		024D272E249726DC007DD657 /* VideoCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallTests.swift; sourceTree = "<group>"; };
+		024D2730249726DC007DD657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		024D2735249726DD007DD657 /* VideoCallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoCallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		024D2739249726DD007DD657 /* VideoCallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallUITests.swift; sourceTree = "<group>"; };
+		024D273B249726DD007DD657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DAA01308AB762F374F03881 /* Pods_VideoCall_VideoCallUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoCall_VideoCallUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CD774C7C6B98C3F490B19D /* Pods-VideoCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoCall.release.xcconfig"; path = "Target Support Files/Pods-VideoCall/Pods-VideoCall.release.xcconfig"; sourceTree = "<group>"; };
+		9C5831F74470AF71E0657D4C /* Pods-VideoCallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoCallTests.release.xcconfig"; path = "Target Support Files/Pods-VideoCallTests/Pods-VideoCallTests.release.xcconfig"; sourceTree = "<group>"; };
+		A11933F3BC00ECDD55772529 /* Pods_VideoCall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoCall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D21086951786C2B1A9B54D /* Pods_VideoCallTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoCallTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFBE5BBD63E4B7BC17E5E78 /* Pods-VideoCallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoCallTests.debug.xcconfig"; path = "Target Support Files/Pods-VideoCallTests/Pods-VideoCallTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF289D0F0651D7EE7DA644F3 /* Pods-VideoCall-VideoCallUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoCall-VideoCallUITests.release.xcconfig"; path = "Target Support Files/Pods-VideoCall-VideoCallUITests/Pods-VideoCall-VideoCallUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FC1E18A5636742BFEF65E523 /* Pods-VideoCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoCall.debug.xcconfig"; path = "Target Support Files/Pods-VideoCall/Pods-VideoCall.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		024D2711249726DC007DD657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F0E2053A0C4498A690670CD /* Pods_VideoCall.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024D2727249726DC007DD657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BAC61DBF7BFA32918E620D8 /* Pods_VideoCallTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024D2732249726DD007DD657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC418AABE919C899286DB368 /* Pods_VideoCall_VideoCallUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		024D270B249726DC007DD657 = {
+			isa = PBXGroup;
+			children = (
+				024D2716249726DC007DD657 /* VideoCall */,
+				024D272D249726DC007DD657 /* VideoCallTests */,
+				024D2738249726DD007DD657 /* VideoCallUITests */,
+				024D2715249726DC007DD657 /* Products */,
+				A54864964C28D5C5A33BBE3E /* Pods */,
+				236AC4A956E8E73FE76429D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		024D2715249726DC007DD657 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				024D2714249726DC007DD657 /* VideoCall.app */,
+				024D272A249726DC007DD657 /* VideoCallTests.xctest */,
+				024D2735249726DD007DD657 /* VideoCallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		024D2716249726DC007DD657 /* VideoCall */ = {
+			isa = PBXGroup;
+			children = (
+				024D2717249726DC007DD657 /* AppDelegate.swift */,
+				024D2719249726DC007DD657 /* SceneDelegate.swift */,
+				024D271B249726DC007DD657 /* ViewController.swift */,
+				024D271D249726DC007DD657 /* Main.storyboard */,
+				024D2720249726DC007DD657 /* Assets.xcassets */,
+				024D2722249726DC007DD657 /* LaunchScreen.storyboard */,
+				024D2725249726DC007DD657 /* Info.plist */,
+			);
+			path = VideoCall;
+			sourceTree = "<group>";
+		};
+		024D272D249726DC007DD657 /* VideoCallTests */ = {
+			isa = PBXGroup;
+			children = (
+				024D272E249726DC007DD657 /* VideoCallTests.swift */,
+				024D2730249726DC007DD657 /* Info.plist */,
+			);
+			path = VideoCallTests;
+			sourceTree = "<group>";
+		};
+		024D2738249726DD007DD657 /* VideoCallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				024D2739249726DD007DD657 /* VideoCallUITests.swift */,
+				024D273B249726DD007DD657 /* Info.plist */,
+			);
+			path = VideoCallUITests;
+			sourceTree = "<group>";
+		};
+		236AC4A956E8E73FE76429D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A11933F3BC00ECDD55772529 /* Pods_VideoCall.framework */,
+				2DAA01308AB762F374F03881 /* Pods_VideoCall_VideoCallUITests.framework */,
+				A3D21086951786C2B1A9B54D /* Pods_VideoCallTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A54864964C28D5C5A33BBE3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC1E18A5636742BFEF65E523 /* Pods-VideoCall.debug.xcconfig */,
+				36CD774C7C6B98C3F490B19D /* Pods-VideoCall.release.xcconfig */,
+				024D248E9800EDC1C43C3C41 /* Pods-VideoCall-VideoCallUITests.debug.xcconfig */,
+				DF289D0F0651D7EE7DA644F3 /* Pods-VideoCall-VideoCallUITests.release.xcconfig */,
+				BAFBE5BBD63E4B7BC17E5E78 /* Pods-VideoCallTests.debug.xcconfig */,
+				9C5831F74470AF71E0657D4C /* Pods-VideoCallTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		024D2713249726DC007DD657 /* VideoCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024D273E249726DD007DD657 /* Build configuration list for PBXNativeTarget "VideoCall" */;
+			buildPhases = (
+				A4D4B8F07808A76C0934FBF9 /* [CP] Check Pods Manifest.lock */,
+				024D2710249726DC007DD657 /* Sources */,
+				024D2711249726DC007DD657 /* Frameworks */,
+				024D2712249726DC007DD657 /* Resources */,
+				6F220A885BA6DD2481B487C5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoCall;
+			productName = VideoCall;
+			productReference = 024D2714249726DC007DD657 /* VideoCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		024D2729249726DC007DD657 /* VideoCallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024D2741249726DD007DD657 /* Build configuration list for PBXNativeTarget "VideoCallTests" */;
+			buildPhases = (
+				514D274F30AA09E5FC6206E5 /* [CP] Check Pods Manifest.lock */,
+				024D2726249726DC007DD657 /* Sources */,
+				024D2727249726DC007DD657 /* Frameworks */,
+				024D2728249726DC007DD657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				024D272C249726DC007DD657 /* PBXTargetDependency */,
+			);
+			name = VideoCallTests;
+			productName = VideoCallTests;
+			productReference = 024D272A249726DC007DD657 /* VideoCallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		024D2734249726DD007DD657 /* VideoCallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024D2744249726DD007DD657 /* Build configuration list for PBXNativeTarget "VideoCallUITests" */;
+			buildPhases = (
+				5C04D509678F1C3AA51D14CE /* [CP] Check Pods Manifest.lock */,
+				024D2731249726DD007DD657 /* Sources */,
+				024D2732249726DD007DD657 /* Frameworks */,
+				024D2733249726DD007DD657 /* Resources */,
+				B278958582ED86FEF8D8DCC7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				024D2737249726DD007DD657 /* PBXTargetDependency */,
+			);
+			name = VideoCallUITests;
+			productName = VideoCallUITests;
+			productReference = 024D2735249726DD007DD657 /* VideoCallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		024D270C249726DC007DD657 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = yun;
+				TargetAttributes = {
+					024D2713249726DC007DD657 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					024D2729249726DC007DD657 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 024D2713249726DC007DD657;
+					};
+					024D2734249726DD007DD657 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 024D2713249726DC007DD657;
+					};
+				};
+			};
+			buildConfigurationList = 024D270F249726DC007DD657 /* Build configuration list for PBXProject "VideoCall" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 024D270B249726DC007DD657;
+			productRefGroup = 024D2715249726DC007DD657 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				024D2713249726DC007DD657 /* VideoCall */,
+				024D2729249726DC007DD657 /* VideoCallTests */,
+				024D2734249726DD007DD657 /* VideoCallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		024D2712249726DC007DD657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024D2724249726DC007DD657 /* LaunchScreen.storyboard in Resources */,
+				024D2721249726DC007DD657 /* Assets.xcassets in Resources */,
+				024D271F249726DC007DD657 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024D2728249726DC007DD657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024D2733249726DD007DD657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		514D274F30AA09E5FC6206E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideoCallTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C04D509678F1C3AA51D14CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideoCall-VideoCallUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F220A885BA6DD2481B487C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoCall/Pods-VideoCall-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoCall/Pods-VideoCall-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideoCall/Pods-VideoCall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D4B8F07808A76C0934FBF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideoCall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B278958582ED86FEF8D8DCC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoCall-VideoCallUITests/Pods-VideoCall-VideoCallUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoCall-VideoCallUITests/Pods-VideoCall-VideoCallUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideoCall-VideoCallUITests/Pods-VideoCall-VideoCallUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		024D2710249726DC007DD657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024D271C249726DC007DD657 /* ViewController.swift in Sources */,
+				024D2718249726DC007DD657 /* AppDelegate.swift in Sources */,
+				024D271A249726DC007DD657 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024D2726249726DC007DD657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024D272F249726DC007DD657 /* VideoCallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024D2731249726DD007DD657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024D273A249726DD007DD657 /* VideoCallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		024D272C249726DC007DD657 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 024D2713249726DC007DD657 /* VideoCall */;
+			targetProxy = 024D272B249726DC007DD657 /* PBXContainerItemProxy */;
+		};
+		024D2737249726DD007DD657 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 024D2713249726DC007DD657 /* VideoCall */;
+			targetProxy = 024D2736249726DD007DD657 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		024D271D249726DC007DD657 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				024D271E249726DC007DD657 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		024D2722249726DC007DD657 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				024D2723249726DC007DD657 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		024D273C249726DD007DD657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		024D273D249726DD007DD657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		024D273F249726DD007DD657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC1E18A5636742BFEF65E523 /* Pods-VideoCall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9ZGBAR796;
+				INFOPLIST_FILE = VideoCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youdao.yunsp.VideoCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		024D2740249726DD007DD657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36CD774C7C6B98C3F490B19D /* Pods-VideoCall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9ZGBAR796;
+				INFOPLIST_FILE = VideoCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youdao.yunsp.VideoCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		024D2742249726DD007DD657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAFBE5BBD63E4B7BC17E5E78 /* Pods-VideoCallTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9ZGBAR796;
+				INFOPLIST_FILE = VideoCallTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youdao.yunsp.VideoCallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoCall.app/VideoCall";
+			};
+			name = Debug;
+		};
+		024D2743249726DD007DD657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C5831F74470AF71E0657D4C /* Pods-VideoCallTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9ZGBAR796;
+				INFOPLIST_FILE = VideoCallTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youdao.yunsp.VideoCallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoCall.app/VideoCall";
+			};
+			name = Release;
+		};
+		024D2745249726DD007DD657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 024D248E9800EDC1C43C3C41 /* Pods-VideoCall-VideoCallUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9ZGBAR796;
+				INFOPLIST_FILE = VideoCallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youdao.yunsp.VideoCallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoCall;
+			};
+			name = Debug;
+		};
+		024D2746249726DD007DD657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF289D0F0651D7EE7DA644F3 /* Pods-VideoCall-VideoCallUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9ZGBAR796;
+				INFOPLIST_FILE = VideoCallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youdao.yunsp.VideoCallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoCall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		024D270F249726DC007DD657 /* Build configuration list for PBXProject "VideoCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024D273C249726DD007DD657 /* Debug */,
+				024D273D249726DD007DD657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		024D273E249726DD007DD657 /* Build configuration list for PBXNativeTarget "VideoCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024D273F249726DD007DD657 /* Debug */,
+				024D2740249726DD007DD657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		024D2741249726DD007DD657 /* Build configuration list for PBXNativeTarget "VideoCallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024D2742249726DD007DD657 /* Debug */,
+				024D2743249726DD007DD657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		024D2744249726DD007DD657 /* Build configuration list for PBXNativeTarget "VideoCallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024D2745249726DD007DD657 /* Debug */,
+				024D2746249726DD007DD657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 024D270C249726DC007DD657 /* Project object */;
+}
