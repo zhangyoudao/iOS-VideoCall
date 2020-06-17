@@ -7,13 +7,10 @@ target 'VideoCall' do
 
   # Pods for VideoCall
   pod 'SnapKit'
+  pod 'libksygpulive/libksygpulive'
 
   target 'VideoCallTests' do
     inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'VideoCallUITests' do
     # Pods for testing
   end
 

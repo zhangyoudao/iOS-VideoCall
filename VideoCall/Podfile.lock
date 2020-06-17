@@ -1,16 +1,36 @@
 PODS:
+  - GPUImage (0.1.7)
+  - libksygpulive/base (3.0.4)
+  - libksygpulive/libksygpulive (3.0.4):
+    - GPUImage
+    - libksygpulive/streamerbase
+  - libksygpulive/mediacodec (3.0.4)
+  - libksygpulive/mediacore_enc_base (3.0.4)
+  - libksygpulive/mediacore_enc_lite (3.0.4)
+  - libksygpulive/streamerbase (3.0.4):
+    - libksygpulive/base
+    - libksygpulive/mediacodec
+    - libksygpulive/mediacore_enc_base
+    - libksygpulive/mediacore_enc_lite
+    - libksygpulive/yuv
+  - libksygpulive/yuv (3.0.4)
   - SnapKit (5.0.1)
 
 DEPENDENCIES:
+  - libksygpulive/libksygpulive
   - SnapKit
 
 SPEC REPOS:
   trunk:
+    - GPUImage
+    - libksygpulive
     - SnapKit
 
 SPEC CHECKSUMS:
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  libksygpulive: aca3eb30e7a38ee6565feb52feb82ccc0103ce43
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: a543b23a7a22ec4fdfb8c46b7f44be5a4bddef29
+PODFILE CHECKSUM: 18d0bef88ca77f2ade61af49c3357f754698fd27
 
 COCOAPODS: 1.9.3
